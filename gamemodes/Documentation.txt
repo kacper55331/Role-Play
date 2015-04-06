@@ -1,0 +1,750 @@
+Global
+	Gui:
+	     ID:   	 Name:			      			 File:
+		0  -	None							-> __________________
+		1  -	SelectSpawn						-> SURV.pwn			|
+		2  -	Przedmiot -> szukaj				-> SURV_items.pwn	|
+		3  -	ShowPlayerFriends				-> SURV_friends.pwn	|
+		4  -	Friend							-> SURV_friends.pwn	|
+		5  -	Friend -> Wyœlij wiadomosc		-> SURV_friends.pwn	|
+		6  -	Friend -> Zmieñ nazwê			-> SURV_friends.pwn	|
+		7  -	Friend -> Skasuj				-> SURV_friends.pwn	|
+		8  -	Friend -> Zostaw wiadomosc		-> SURV_friends.pwn	|
+		9  -	Wiadomosc						-> SURV_friends.pwn	|
+		10 -	Login							-> SURV.pwn			|
+		11 -	Wybór pierwszego pojazdu		-> SURV.pwn			|
+		12 -	Wiadomosc -> Skasuj				-> SURV_friends.pwn	|
+		13 -	Bus								-> SURV_bus.pwn		|
+		14 -	Bus -> Confirm					-> SURV_bus.pwn		|
+		15 -	Przedmiot -> Naboje				-> SURV_items.pwn	|
+		16 -	Telefon -> odbierz				-> SURV_tel.pwn		|
+		17 -	AttachObject -> Edit			-> SURV_items.pwn	|
+		18 - 	Bank							-> SURV_bank.pwn	|
+		19 - 	Bank -> Logowanie				-> SURV_bank.pwn	|
+		20 -	Bank -> Menu					-> SURV_bank.pwn	|
+		21 -	Bank -> Back to menu			-> SURV_bank.pwn	|
+		22 -	Bank -> Change Pin				-> SURV_bank.pwn	|
+		23 -	Bank -> Blokada konta			-> SURV_bank.pwn	|
+		24 - 	Bank -> Wyp³ata					-> SURV_bank.pwn	|
+		25 -	Bank -> Wp³ata					-> SURV_bank.pwn	|
+		26 -	Oferta							-> SURV_offer.pwn	|
+		27 -	Bank -> Blokada karty			-> SURV_bank.pwn	|
+		28 - 	Order -> Wybór kategorii		-> SURV_orders.pwn	|
+		29 -	Order -> Wybór przedmiotu		-> SURV_orders.pwn	|
+		30 -	Order -> Podanie iloœci			-> SURV_orders.pwn	|
+		31 -	Order -> Podanie ceny			-> SURV_orders.pwn	|
+		32 -	Bank -> Wybór karty				-> SURV_bank.pwn	|
+		33 -	Bank -> Logowanie				-> SURV_bank.pwn	|
+		34 - 	Bank -> Wypisanie czeku			-> SURV_bank.pwn	|
+		35 -	Report							-> SURV_admin.pwn	|
+		36 -	Przedmiot -> Crafting			-> SURV_items.pwn	|
+		37 -	Pojazd							-> SURV_vehicles.pwn|
+		38 -	Pojazd -> Opcje					-> SURV_vehicles.pwn|
+		39 - 	Spawn							-> SURV.pwn			|
+		40 -	Drzwi							-> SURV_doors.pwn	|
+		41 -	Drzwi -> Ustal nazwe			-> SURV_doors.pwn	|
+		42 -	Drzwi -> Ustaw op³ate			-> SURV_doors.pwn	|
+		43 -	Pojazd -> Ustawienia zew		-> SURV_vehicles.pwn|
+		44 -	Pojazd -> Przypisz				-> SURV_vehicles.pwn|
+		45 -	Drzwi -> Dodatki				-> SURV_doors.pwn	|
+		46 -	Drzwi -> Hifi					-> SURV_doors.pwn	|
+		47 -	Przedmiot -> Pusta p³yta		-> SURV_items.pwn	|
+		48 -	Drzwi -> Wybranie p³yty			-> SURV_doors.pwn	|
+		49 -	Pojazd -> Ustawienia audio		-> SURV_vehicles.pwn|
+		50 -	Pojazd -> Wybranie p³yty		-> SURV_vehicles.pwn|
+		51 -	Animacje						-> SURV_anims.pwn	|
+		52 -	Report -> Skasuj				-> SURV_admin.pwn	|
+		53 -	Paczka							-> SURV_orders.pwn	|
+		54 -	/kup							-> SURV_orders.pwn	|
+		55 - 	/podaj							-> SURV_orders.pwn	|
+		56 -	/podaj -> cena					-> SURV_orders.pwn	|
+		57 -	/podaj -> ilosc					-> SURV_orders.pwn	|
+		58 -	CDPlayer						-> SURV_items.pwn	|
+		59 -	CDPlayer -> Wybranie p³yty		-> SURV_items.pwn	|
+		60 - 	/stats							-> SURV.pwn			|
+		61 - 	PC								-> SURV_pc.pwn		|
+		62 - 	PC -> Logowanie					-> SURV_pc.pwn		|
+		63 -	PC -> Menu						-> SURV_pc.pwn		|
+		64 -	/stworz							-> SURV_admin.pwn	|
+		65 -	/stworz -> Pojazd -> Model		-> SURV_admin.pwn	|
+		66 -	/stworz -> Model -> else		-> SURV_admin.pwn	|
+		67 -	/stworz -> Pojazd -> Kolor		-> SURV_admin.pwn	|
+		68 -	/stworz -> Pojazd -> END		-> SURV_admin.pwn	|
+		69 -	PC -> Menu -> Wyszukaj			-> SURV_pc.pwn		|
+		70 -	Oferta -> Wybór p³atnoœci		-> SURV_offer.pwn	|
+		71 -	Oferta -> Podanie pinu			-> SURV_offer.pwn	|
+		72 -	Oferta -> Sprawdzenie pinu		-> SURV_offer.pwn	|
+		73 -	Bank -> zmiana nazwy konta		-> SURV_bank.pwn	|
+		74 -	Opis							-> SURV_opis.pwn	|
+		75 -	/stats -> ustawienia			-> SURV.pwn			|
+		76 -	Opis -> Nowy					-> SURV_opis.pwn	|
+		77 -	Opis -> Edycja					-> SURV_opis.pwn	|
+		78 -	Przedmioty -> paczka			-> SURV_items.pwn	|
+		79 -	PC -> Menu -> Wyszukaj -> ID	-> SURV_pc.pwn		|
+		80 -	Oferta -> Wybór pojazdu			-> surv_offer.pwn	|
+		81 -	Oferta -> wybór rejestracji		-> surv_offer.pwn	|
+		82 -	Pojazd -> demonta¿ tuningu		-> surv_vehicles.pwn|
+		83 -	Item -> tworzenie karteczki		-> surv_items.pwn	|
+		84 -	Item -> Spis karteczek			-> surv_items.pwn	|
+		85 -	Item -> Wyrywanie karteczki		-> surv_items.pwn	|
+		86 -	Kupowanie napoju				-> surv_orders.pwn	|
+		87 -	Order -> Sposób dostawy			-> surv_orders.pwn	|
+		88 -	Order -> Status paczki			-> surv_orders.pwn	|
+		89 -	Telefon -> Zakoñcz rozmowê		-> surv_tel.pwn		|
+		90 -	Praca dorywcza					-> surv_pickups.pwn	|
+		91 -	/stworz -> przedmiot			-> surv_admin.pwn	|
+		92 - 	/stworz -> przedmiot -> v1		-> surv_admin.pwn	|	
+		93 -	/stworz -> przedmiot -> v2		-> surv_admin.pwn	|
+		94 -	/stworz -> przedmiot -> v3		-> surv_admin.pwn	|
+		95 -	/stworz -> przedmiot -> weight	-> surv_admin.pwn	|
+		96 -	/stworz -> przedmiot -> name	-> surv_admin.pwn	|
+		97 -	/edytuj							-> surv_admin.pwn	|
+		98 -	/edytuj -> pojazd				-> surv_admin.pwn	|
+		99 -	/edytuj -> pojazd -> info		-> surv_admin.pwn	|
+		100 - 	/edytuj -> pojazd -> param		-> surv_admin.pwn	|
+		101 -	/edytuj -> pojazd -> confirm	-> surv_admin.pwn	|
+		102 -	/edytuj -> strefa				-> surv_admin.pwn	|
+		103 -	/edytuj -> strefa -> confirm	-> surv_admin.pwn	|
+		104 -	/stworz -> grupe				-> surv_admin.pwn	|
+		105 -	/stworz -> grupe -> typ			-> surv_admin.pwn	|
+		106 -	/stworz -> grupe -> lider		-> surv_admin.pwn	|
+		107 -	sejf -> pass					-> surv_sejf.pwn	|
+		108 -	
+		109 -	
+		110 -	
+		111 -	
+		112 -	
+		113 -	
+		114 -	
+		115 -	
+		116 -	
+		117 -	
+		118 -	
+		119 -	
+		120 -	
+		121 -	/stworz -> drzwi				-> surv_admin.pwn	|
+		122 -
+		123 -
+		124 -
+		125 -
+		126 -
+		127 -	/p
+		128 -	/p - ID
+		129 -	Przedmiot -> value1
+		130 -	Przedmiot -> rename
+		131 - 	Przedmiot -> value2
+		132 -	Przedmiot -> value3
+		133 -	Przedmiot -> włóż
+		134 -	/oferuj dokument
+		135 -	/pomoc
+		136 -	attach vehicle
+		137 -	/stworz -> obiekt
+		138 -	/edytuj -> przedmiot
+		139 -	/edytuj -> przedmiot -> uid
+		140 -	/edytuj -> przedmiot -> param
+		141 -	/edytuj -> przedmiot -> confirm
+		142 -	/edytuj -> grupe
+		143 - 	/edytuj -> grupe -> param
+		144 - 	/edytuj	-> grupe -> confirm
+		145	-	/edytuj -> drzwi
+		146 -	/edytuj -> confirm
+		147 -	/stworz -> pickup
+		148 -	/stworz -> pickup -> confirm
+		149 -	Przedmiot -> Daj
+		150 -	Przedmiot -> Oferuj
+		151 - 	Przedmiot -> Oferuj -> Cena
+		152 -	Obiekt -> edycja
+		153 -	Telefon -> 911
+		154 -	Telefon -> Opis
+		155 -	Telefon -> Przyjęto
+		156 -	PC -> wyszukaj -> wynik
+		157 -	NPC
+		158 -	Telelefon -> 666
+		159 -	Przedmiot -> Nowa karta
+		160 - 	Telefon
+		169 - 
+		170 -	Wybór wzrostu
+		999-	Dialog Info			-> _____________________|
+	
+	Forum Type
+		1 -	MyBB
+		2 -	IPB
+end GUI
+---------------------------------------------------------
+Player
+	Block Type:
+		0  -	None
+		1  -	No Run
+		2  -	No Veh
+		4  -	No Gun
+		8  -	No OOC
+		16 -	Ban
+		32 -	CK
+
+	Kara Type:
+		0  -	None
+		1  -	No Run
+		2  -	No Veh
+		3  -	No Gun
+		4  -	No OOC
+		5  -	Ban
+		6  -	block
+		7  -	Slap
+		
+	Dark Type:
+		0  -	None
+		1  - 	Connect camera
+		2  -	Spawn
+		3  -	Login
+		4  -	Login2
+		5  -	Drzwi
+
+	Option Type:
+		0  -	None
+		1  -	Me
+		2  -	Panoramika
+		4  -	San News
+		8  -	PM
+		16 -	Freeze door
+
+	Job Type:
+		0  -	None
+		1  -	Kurier
+
+	Sex Type:
+		0  -	None
+		1  -	Men
+		2  -	Woman
+end Player
+---------------------------------------------------------
+Vehicle
+	Fuel Type:
+		0  -	None
+		1  -	Benzyna
+		2  - 	Ropa
+		4  -	Gas
+
+	OwnerType:
+		0  -	None
+		1  -	Group
+				owner: 	group_uid
+		2  -	Player
+				owner: 	player_uid
+
+	Option Type:
+		0  -	None
+		1  -	Immobiliser
+		2  -	Alarm
+		4  -	Audio
+end Vehicle
+---------------------------------------------------------
+Objects
+	OwnerType:
+		0  -	None
+		1  -	Group
+				owner: 	group_uid
+		2  -	Player
+				owner: 	player_uid
+		3  -	Doors
+				owner:	door_uid
+		4  -	Item
+				owner:	item_uid
+		5  -	Flower
+				owner:	flower_uid
+end Objects
+---------------------------------------------------------
+3dText
+	OwnerType:
+		0  -	None
+		1  -	Group
+				owner: 	group_uid
+		2  -	Player
+				owner: 	player_uid
+		3  -	Doors
+				owner:	door_uid
+		4  -	Bus
+				owner:	bus_uid
+		5  -	Plant
+				owner:	flower_uid
+end 3dText
+---------------------------------------------------------
+Group
+	Type:
+		0  -	None
+		1  -	Police
+		2  -	Medical Center
+		3  -	Government
+		4  -	Fire Departament
+		5  -	Radio
+		6  -	Gastronomy
+		7  -	Workshop
+		8  -	Bingo
+		9  -	Shop
+		10 -	Build
+		11 -	Hotel
+				v1:	Cena za noc
+				v2:	UID pokoju (surv_hotel)
+		12 -	Bank
+				v1:	Cena za Za³o¿enie konta
+				v2:	Cena za U¿ycie bankomatu
+		13 -	Gym
+				v1:	Cena za Trening
+				v2:	Cena za Sztuka walki
+		14 -	Station
+				v1:	Cena za litr
+		15 -	Post
+		16 -	Gang
+		17 - 	Mafia
+		18 -	Taxi
+
+	Member Can:
+		1  -	Vehicle
+		2  -	Doors
+		4  -	Sells
+		8  -	Added
+		16 -	Products
+		32 -	Gate
+		64 -	Door Option
+		128-	Color & Tag
+		256-	Default
+end Group
+---------------------------------------------------------
+Item
+	Type:
+		0  -	None
+		1  -	Weapon			v
+				v1: model
+				v2: ammo
+				v3: flag
+		2  -	Ammo			v
+				v1: model
+				v2: ammo
+		3  -	Cloth			v
+				v1: model
+		4  -	Food			v
+				v1: wa¿nosc (UNIX)
+				v2: ilosc
+				v3: HP
+		5  -	Drink			v
+				v1: ilosc
+				v2: Anim
+				v3: HP
+		6  -	Watch			v
+		7  -	Key				v
+				v1: Typ
+					0 -	None
+					1 -	Vehicle
+					2 -	Doors
+				v2: ID
+					owner: 	None
+					owner:	vehicle_uid
+					owner:	door_uid
+		8  -	Ciggy			v
+				v1: Ilosc
+		9  -	Radio
+				v1: Kana³
+		10 -	Phone
+				v1: Numer -> 0
+				v2: surv_phone -> uid
+				v3: notify
+		11 -	Handcuffs		v
+		12 -	Megaphone		v
+		13 -	Bank Kart		v
+				v1: Numer konta
+				v2: block
+					0 - 	false
+					1 -	true
+				v3: paypass
+					0 - 	false
+					1 -	true
+		14 -	Trash
+				v1: type
+					0 -	None
+					1 -	Butelka
+					2 -	Opakowanie
+		15 -	Seeds				v
+				v1: type
+				v2: ilosc
+		16 - 	Attach Object		v
+				v1: objectmodel
+				v2: slot
+				v3: bone
+		17 -	Drugs
+				v1: type
+					0 - 	None
+					1 -	LSD
+					2 -	Marichuana
+				v2: ilosc
+		18 -	Checkbook			v
+		19 - 	Check				v
+				v1: bank number
+				v2: active
+				v3: cash
+		20 -	Rolki				v
+		21 -	Craft
+		22 -	CD					v
+				v1: uid
+		23 -	Bumbox
+				v1: sound_uid
+				x,y,z: Pozycja na ziemi
+		24 -	CD-Player			v
+				v1: sound_uid
+		25 -	Pack				v
+		26 -	Siren				v
+				v1: object_model
+		27 -	Document			v
+				v1: player_uid
+				v2: type
+		28 -	Leki
+				v1: type
+				v2: iloœæ
+		29 -	Notes				v
+		30 -	Karteczka			v
+				v1: kart_uid
+		31 -	compontent
+				v1: modelid
+
+		41 -	Sim Card			v
+				v1: Numer
+				v3: Money
+		44 - 	Karnet
+				v1: groupuid
+				v2: time
+
+	OwnerType:
+		0  -	None
+		1  -	Player
+				owner: 	player_uid
+		2  -	Vehicle
+				owner: 	vehicle_uid
+		3  - 	Doors
+				owner: 	door_uid
+		4  -	Tuning
+				owner: 	vehicle_uid
+		5  -	Sejf
+				owner: 	door_uid
+		6  -	Item
+				owner:	item_uid
+end Item
+---------------------------------------------------------
+Offer
+	Type:
+		0  -	None
+		1  -	Item			v
+				v1: item_uid
+		2  -	Vehicle			v
+				v1: vehicle_uid
+				v2: carid
+		3  -	Group			v
+				v1: group_uid
+				v2: groupid
+		4  -	Product			v
+				v1: product_uid
+				v2: amount
+				v3: price
+		5  -	Plate			v
+				v1: vehicle_uid
+				v4: plate
+		6  -	Document
+				v1: item_uid
+
+end Offer
+---------------------------------------------------------
+Station
+	OwnerType:
+		0  -	None
+		1  -	Group
+				owner: 	group_uid
+		2  -	Player
+				owner: 	player_uid	
+end Station
+---------------------------------------------------------
+Door
+	OwnerType:
+		0  -	None
+		1  -	Group
+				owner: 	group_uid
+		2  -	House
+				owner: 	player_uid
+	
+	Option:
+		0  -	None
+		1  -	Hifi
+		2  -	Hifi out
+		4  -	przejazd
+		8  -	kup
+		16 -	karta
+		32 -	paypass
+end Door
+---------------------------------------------------------
+Pc
+	User type:
+		0  -	None
+		1  -	PD
+		2  -	MC
+
+	Permission:
+		0  -	None
+		1  -	User
+		2  -	Admin
+
+	Type:
+		0  -	None
+		1  -	Player
+				typid: player_uid
+		2  -	Vehicle
+				typid: vehicle_uid
+		3  -	Wpis
+	
+	Kara Type:
+		0  -	None
+		1  -	Mandat
+				v1: cash
+				v2: pkt karne
+		2  -	Blokada ko³a
+				v1: cash
+				v2: ----
+		3  -	Notatka
+				name: 
+end Pc
+---------------------------------------------------------
+---------------------------------------------------------
+v SURV_bus.pwn
+	Callbacks:
+		- Bus_OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
+		- LoadBus()
+		- Bus_Timer(playerid)
+		- Bus_Timer_Ex(playerid)
+
+	Stock:
+		-
+
+	Commands:
+		- /bus			-
+end SURV_bus.pwn
+---------------------------------------------------------
+SURV_cmd.pwn
+	Callbacks:
+		-
+
+	Stock:
+		-
+
+	Commands:
+		- /me /ja 		[Tresc]
+		- /mec 			[Tresc]
+		- /do 			[Tresc]
+		- /doc 			[Tresc]
+		- /krzycz /k		[Tresc]
+		- /szept /s		[Tresc]
+		- /wiadomosc /w /pm	[Victimid]
+						- Tresc
+		- /megafon /m		[Tresc]
+		- /a			-
+		- /sprobuj		[Tresc]
+end SURV_cmd.pwn
+---------------------------------------------------------
+SURV_doors.pwn
+	Callbacks:
+		- Doors_OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
+		- LoadDoors()
+
+	Stock:
+		- GetPlayerDoor(playerid, out = true)
+
+	Commands:
+		-
+end SURV_doors.pwn
+---------------------------------------------------------
+v SURV_friends.pwn
+	Callbacks:
+		- Friends_OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
+		- LoadPlayerFriends(playerid)
+		- HideFriend(playerid)
+		- ShowPlayerFriends(playerid)
+		- ShowCountOfMessages(playerid);
+		- ShowMessages(playerid);
+
+	Stock:
+		-
+
+	Commands:
+		- /friends		[wiadomosc]
+end SURV_friends.pwn
+---------------------------------------------------------
+SURV_groups.pwn
+	Callbacks:
+		- LoadPlayerGroups(playerid)
+		- DeleteGroup(groupuid)
+		- ShowPlayerGroupList(playerid)
+		- AddPlayerToGroup(playerid, groupuid)
+		- RemovePlayerFromGroup(playerid, groupuid)
+
+	Stock:
+		- IsPlayerInTypeGroup(playerid, type)
+		- IsPlayerInUidGroup(playerid, groupuid)
+
+	Commands:
+		- /grupa /g 		[slot]
+						- info
+						- duty
+						- online
+						- zapros [ID/Nick]
+						- wypros [ID/Nick]
+		- /skuj			[ID/Nick]
+end SURV_groups.pwn
+---------------------------------------------------------
+SURV_items.pwn
+	Callbacks:
+		- Items_OnPlayerText(playerid, text[])
+		- Items_OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
+		- Items_OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
+		- Items_OnPlayerUpdate(playerid)
+		- OnPlayerUseItem(playerid, itemid, textuse[])
+		- OnPlayerCraft(playerid)
+		- OnPlayerAddItemToFavorite(playerid, itemid)
+		- OnPlayerSelectItem(playerid, itemid)
+		- OnItemNameChange(playerid, itemid, newname[])
+		- OnPlayerRemoveItem(playerid, itemid)
+		- OnPlayerPickUpItem(playerid, itemuid)
+		- ShowPlayerItems(playerid, page)
+		- HideItemsTextDraw(playerid)
+		- DeleteItem(itemuid)
+		- Createitem(playerid, typ, v1, v2, name[])
+		- HavePlayerItem(playerid, typ)
+		- Weapon_EndReload(playerid)
+		- ObjectItem(playerid, type, v1, v2, Float:x, Float:y, Float:z)
+		- SetPlayerAttachedObjects(playerid)
+
+	Stock:
+		- GetWeaponAmmo(playerid, weaponid)
+
+	Commands:
+		- /przedmiot /p		[szukaj(podnies)]
+					[u¿yj]
+						- uid
+					[lista]
+		- /time /zegarek	-
+end SURV_items.pwn
+---------------------------------------------------------
+v SURV_mysql.pwn
+	Callbacks:
+		- MySQL_Connect()
+
+	Stock:
+		-
+
+	Commands:
+		-
+end SURV_mysql.pwn
+---------------------------------------------------------
+SURV_objects.pwn
+	Callbacks:
+		- LoadPlayerObjects(playerid, virtualworld)
+		- RemovePlayerBuilds(playerid)
+
+	Stock:
+		-
+
+	Commands:
+		- /brama		-
+end SURV_objects.pwn
+---------------------------------------------------------
+SURV_text.pwn
+	Callbacks:
+		- LoadPlayerText(playerid, virtualworld)
+		- LoadIcons(playerid)
+
+	Stock:
+		-
+
+	Commands:
+		-
+end SURV_text.pwn
+---------------------------------------------------------
+v SURV_bank.pwn
+	Callbacks:
+		- Bank_OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
+		- Bank_Clear(playerid)
+		- Bank_Default(playerid)
+
+	Stock:
+		-
+
+	Commands:
+		- /bank
+end SURV_bank.pwn
+---------------------------------------------------------
+SURV_tel.pwn
+	Callbacks:
+		- Tel_OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
+		- Tel_OnPlayerText(playerid, text[])
+		- Call(playerid, numer)
+		- EndCall(playerid)
+		- Tel_Timer(playerid)
+	Stock:
+		-
+
+	Commands:
+		-
+end SURV_tel.pwn
+---------------------------------------------------------
+SURV_vehicles.pwn
+	Callbacks:
+		- Vehicle_OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
+		- Vehicle_OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
+		- LoadVehicles()
+		- LoadVehicleEx(vehicleuid)
+		- DeleteVeh(vehicleid)
+		- UnSpawnVeh(vehicleid)
+		- SaveVeh(vehicleid)
+		- CreateVeh(playerid, model, ownerType, owner, c1, c2)
+		- ShowPlayerCars(playerid)
+		- CanPlayerVehicleDrive(playerid, carid)
+		- Silnik(playerid, carid)
+		- Respawn_Vehicle(carid)
+		- Vehicle_Timer(playerid)
+
+	Stock:
+		- GetClosestCar(playerid, Float:Prevdist = 5.0)
+		- GetDistanceToCar(playerid, carid)
+		- 
+
+	Commands:
+		- /silnik		-
+		- /v			[z/zamknij]
+					[przypisz]
+					[o/odpal]
+					[parkuj]
+end SURV_vehicles.pwn
+---------------------------------------------------------
+SURV_init.pwn
+	Callbacks:
+		- LoadSetting()
+		- LoadPlayerTextDraws(playerid)
+		- LoadTextDraws()
+		- UnFreezePlayer(playerid)
+		- FreezePlayer(playerid)
+
+	Stock:
+		- SPD(playerid, dialogid, style, caption[], info[], button1[], button2[])
+		- OnDialogResponseEx(playerid, dialogid, response, listitem, inputtext[])
+		- NickSamp(playerid)
+		- NickName(playerid)
+		- UnderscoreToSpace(name[])
+		- AntyUnderscoreToSpace(name[])
+		- SetPlayerPosEx(playerid, Float:X, Float:Y, Float:Z, Float:A = 0.0)
+		- PutPlayerInVehicleEx(playerid, vehicleid, seatid)
+		- RemovePlayerFromVehicleEx(playerid)
+		- bool:IsValidWeapon(weaponid)
+		- name_add_tabs(names[])
+		- GetPlayerSpeed(playerid)
+		- floatval(Float:f)
+		- EscapePL(name[])
+		- SendClientMessageEx(Float:range, playerid, message[128], col1, col2, col3, col4, col5, bool:echo = false, bool:lang = false, text[] = "")
+		- OdlegloscMiedzyGraczami(Float:radi, playerid, targetid)
+		- SetPlayerMoney(playerid, Float:cash)
+
+	Commands:
+		-
+end SURV_init.pwn
